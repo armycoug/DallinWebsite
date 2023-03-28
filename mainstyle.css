@@ -247,4 +247,68 @@ footer {
     color: #57101C;
     font-size: 50px;
     text-align: center;
+    font-size: 50px;
+    font-style: bold;
+}
+.cbody{
+    display: grid;
+    grid-template-rows: .15fr .4fr .2fr .2fr .25fr .25fr .25fr 1fr;
+    grid-template-columns: 1.8fr 1.2fr 1fr;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #57101C;
+}
+.cbody1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    font-size: 50px;
+    text-align: center;
+    font-style: bold;
+}
+.cbody2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.cbody3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.cbody4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.cbody5 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.cbody5i {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.cbody6 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+.cbody6i {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.cbody7 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+}
+.cbody7i {
+    grid-column: 2/3;
+    grid-row: 7/8;
+}
+.cbody8 {
+    grid-column: 1/4;
+    grid-row: 8/9;
+    max-width: 100%;
+    justify-self: center;
+}
+.cbody9 {
+    grid-column: 3/4;
+    grid-row: 3/8;
 }
